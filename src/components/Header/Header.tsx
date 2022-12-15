@@ -6,9 +6,11 @@ import "./Header.scss";
 
 export const Header = () => {
   return (
-    <div className="header">
-      <Search />
-      <div className="avatar"></div>
-    </div>
+    <>
+      <div className="header">
+        <Search />
+        <div className="avatar"></div>
+      </div>
+    </>
   );
 };

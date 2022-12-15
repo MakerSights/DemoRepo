@@ -23,6 +23,7 @@ export const Search = () => {
           type="text"
           name="name"
           placeholder="Search..."
+          autoComplete="off"
         />
       </fieldset>
     </form>

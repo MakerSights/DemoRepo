@@ -4,6 +4,7 @@ import ContentProvider from "./context/ContentContext";
 // Component.
 import { Content } from "./components/Content";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 import "./App.scss";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <ContentProvider>
         <Header />
         <Content />
+        <Footer />
       </ContentProvider>
     </div>
   );
