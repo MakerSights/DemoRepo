@@ -1,14 +1,14 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 
 export type Animal = {
-  id: unknown;
+  id: any;
   name: string;
   breed: string;
   img?: string;
   location: string;
   daysOld: number;
-  sex: unknown;
-  type: unknown;
+  sex: any;
+  type: any;
   saved: boolean;
   scores: {
     kindness: number;
